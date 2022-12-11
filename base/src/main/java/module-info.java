@@ -4,8 +4,7 @@ module base {
     requires javafx.media;
     requires java.logging;
     requires slf4j.api;
-    requires logback.core;
-    requires logback.classic;
+    requires com.google.gson;
 
 
     exports top.yangcc.base;
